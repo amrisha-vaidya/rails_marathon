@@ -1,0 +1,14 @@
+<h3>Gallery Name</h3>
+<p><%= @gallery.name %></p>
+
+<h3>Gallery Location</h3>
+<ul>
+<%= @gallery.city %>
+<%= @gallery.state %>
+<%= @gallery.zip %>
+</ul>
+
+<h3>Gallery Description</h3>
+<%= @gallery.description %>
+
+<%= link_to 'Back', galleries_path %>
