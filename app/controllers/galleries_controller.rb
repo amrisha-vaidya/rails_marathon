@@ -22,7 +22,7 @@ class GalleriesController < ApplicationController
   end
 
   private
-  # declaring private method for question_params
+  
 
   def gallery_params
     params.require(:gallery).permit(:name, :city, :state, :zip, :description)
